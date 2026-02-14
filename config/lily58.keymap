@@ -99,7 +99,7 @@
             bindings = <
 &trans &trans    &trans &trans    &trans &trans                 &trans &trans &trans &trans &trans           &trans
 &trans &trans    &trans &kp A     &trans &trans                 &trans &kp A  &kp A  &kp A  &ext_power EP_ON &ext_power EP_OFF
-&trans &kp RALT(A)     &trans &trans    &trans &trans                 &trans &kp A  &kp A  &kp A  &kp A            &trans
+&trans &kp A     &trans &trans    &trans &trans                 &trans &kp A  &kp A  &kp A  &kp A            &trans
 &trans &trans    &trans &trans    &trans &trans &trans   &trans &trans &trans &trans &trans &trans           &trans
                         &trans    &trans &trans &trans   &trans &trans &trans &trans
             >;
