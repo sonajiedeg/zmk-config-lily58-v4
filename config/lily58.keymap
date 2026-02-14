@@ -33,6 +33,12 @@
             global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
+		accent_a_morph: accent_a_morph {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&accent_a_macro>, <&accent_A_macro>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
 	macros {
@@ -44,14 +50,6 @@
                 <&macro_press &kp RALT>,
                 <&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N5>,
                 <&macro_release &kp RALT>;
-				/*
-                <&macro_press>,
-                <&kp RALT &kp RSHFT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N5>,
-                <&macro_release>,
-                <&kp RSHFT &kp RALT>;
-				*/
         };
     };
     
