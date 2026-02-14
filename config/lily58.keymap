@@ -41,9 +41,9 @@
             //label = "new_macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press &kp RALT &kp RSHFT>,
+                <&macro_press &kp RALT>,
                 <&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N5>,
-                <&macro_release &kp RSHFT &kp RALT>;
+                <&macro_release &kp RALT>;
 				/*
                 <&macro_press>,
                 <&kp RALT &kp RSHFT>,
