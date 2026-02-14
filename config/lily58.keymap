@@ -104,22 +104,5 @@
                         &trans    &trans &trans &trans   &trans &trans &trans &trans
             >;
         };
-
-        // 4
-        apostrophe_shift_layer {
-// ------------------------------------------------------------------------------------------------------------
-// |       |     |     |      |      |      |                   |      |       |       |      |       |       |
-// |       |     |     |  É   |      |      |                   |      |  Ú    |  Í    |  Ó   |       |       |
-// |       |  Á  |     |      |      |      |                   |      |  Ü    |  Ű    |  Ö   |  Ő    |       |
-// |       |     |     |      |      |      |        |  |       |      |       |       |      |       |       |
-//                     |      |      |      |        |  |       |      |       |       |
-            bindings = <
-&trans &trans      &trans &trans      &trans &trans                 &trans &trans      &trans      &trans      &trans   &trans
-&trans &trans      &trans &kp A &trans &trans                 &trans &kp A &kp A &kp A &trans   &trans
-&trans &kp A &trans &trans      &trans &trans                 &trans &kp A       &kp A       &kp A       &kp A    &trans
-&trans &trans      &trans &trans      &trans &trans &trans   &trans &trans &trans      &trans      &trans      &trans   &trans
-                          &trans      &trans &trans &trans   &trans &trans &trans      &trans
-            >;
-        };
     };
 };
