@@ -43,7 +43,7 @@
             bindings =
                 <&macro_press &kp RALT &kp RSHFT>,
                 <&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N5>,
-                <&macro_release &kp RSHFT &kp RALT>
+                <&macro_release &kp RSHFT &kp RALT>;
 				/*
                 <&macro_press>,
                 <&kp RALT &kp RSHFT>,
