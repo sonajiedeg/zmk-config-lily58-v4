@@ -34,6 +34,21 @@
             bindings = <&kp>, <&kp>;
         };
     };
+
+	macros {
+        accent_a_macro: accent_a_macro {
+            compatible = "zmk,behavior-macro";
+            label = "new_macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RALT &kp RSHFT>,
+                <&macro_tap>,
+                <&kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N5>,
+                <&macro_release>,
+                <&kp RSHFT &kp RALT>;
+        };
+    };
     
     keymap {
         compatible = "zmk,keymap";
