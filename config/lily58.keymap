@@ -114,11 +114,11 @@
 // |       |     |     |      |      |      |        |  |       |      |       |       |      |       |       |
 //                     |      |      |      |        |  |       |      |       |       |
             bindings = <
-&trans &trans    &trans &trans    &trans &trans                 &trans &trans   &trans   &trans   &trans   &trans
-&trans &trans    &trans &kp RALT(E)     &trans &trans                 &trans &kp LALT(U) &kp LALT(I) &kp LALT(O) &trans   &trans
-&trans &kp RALT(A)     &trans &trans    &trans &trans                 &trans &kp A &kp A &kp A &kp A &trans
-&trans &trans    &trans &trans    &trans &trans &trans   &trans &trans &trans   &trans   &trans   &trans   &trans
-                        &trans    &trans &trans &trans   &trans &trans &trans   &trans   &trans   &trans   &trans
+&trans &trans      &trans &trans      &trans &trans                 &trans &trans      &trans      &trans      &trans   &trans
+&trans &trans      &trans &kp RALT(E) &trans &trans                 &trans &kp LALT(U) &kp LALT(I) &kp LALT(O) &trans   &trans
+&trans &kp RALT(A) &trans &trans      &trans &trans                 &trans &kp A       &kp A       &kp A       &kp A    &trans
+&trans &trans      &trans &trans      &trans &trans &trans   &trans &trans &trans      &trans      &trans      &trans   &trans
+                          &trans      &trans &trans &trans   &trans &trans &trans      &trans
             >;
         };
     };
