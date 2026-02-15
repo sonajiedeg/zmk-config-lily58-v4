@@ -46,8 +46,8 @@
             //label = "new_macro";
             compatible = "zmk,behavior-macro";
 			#binding-cells = <0>;
-			wait-ms = <30>;
-			tap-ms = <30>;
+			wait-ms = <3>;
+			tap-ms = <3>;
             bindings =
                 <&macro_press &kp RALT>,
                 <&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N5>,
@@ -57,8 +57,8 @@
             //label = "new_macro";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-			wait-ms = <30>;
-			tap-ms = <30>;
+			wait-ms = <3>;
+			tap-ms = <3>;
             bindings =
 		//		<&kp A &kp A>;
                 <&macro_press &kp RALT>,
