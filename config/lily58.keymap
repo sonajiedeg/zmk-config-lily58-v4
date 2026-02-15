@@ -33,12 +33,19 @@
             global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
-		accent_a_morph: accent_a_morph {
+		accent_A_morph: accent_A_morph {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&accent_a_macro>, <&accent_AA_macro>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+		accent_E_morph: accent_E_morph {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&accent_e_macro>, <&accent_EE_macro>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
     };
 
 	macros {
@@ -60,11 +67,33 @@
 			wait-ms = <3>;
 			tap-ms = <3>;
             bindings =
-		//		<&kp A &kp A>;
                 <&macro_press &kp RALT>,
                 <&macro_tap &kp KP_N0 &kp KP_N1 &kp KP_N9 &kp KP_N3>,
                 <&macro_release &kp RALT>;
 		};
+		accent_e_macro: accent_e_macro {
+            //label = "new_macro";
+            compatible = "zmk,behavior-macro";
+			#binding-cells = <0>;
+			wait-ms = <3>;
+			tap-ms = <3>;
+            bindings =
+                <&macro_press &kp RALT>,
+                <&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N3>,
+                <&macro_release &kp RALT>;
+        };
+		accent_EE_macro: accent_EE_macro {
+            //label = "new_macro";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+			wait-ms = <3>;
+			tap-ms = <3>;
+            bindings =
+                <&macro_press &kp RALT>,
+                <&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N0 &kp KP_N1>,
+                <&macro_release &kp RALT>;
+		};
+
     };
     
     keymap {
@@ -131,8 +160,8 @@
 //                     |      |      |      |        |  |       |      |       |       |
             bindings = <
 &trans &trans    &trans &trans    &trans &trans                 &trans &trans &trans &trans &trans           &trans
-&trans &trans    &trans &uc 0x00E4 0x00C4     &trans &trans                 &trans &accent_a_morph &kp A  &kp A  &ext_power EP_ON &ext_power EP_OFF
-&trans &kp RA(A)     &trans &trans    &trans &trans                 &trans &kp A  &kp A  &kp A  &kp A            &trans
+&trans &trans    &trans &accent_E_morph    &trans &trans                 &trans &accent_a_morph &kp A  &kp A  &ext_power EP_ON &ext_power EP_OFF
+&trans &accent_A_morph     &trans &trans    &trans &trans                 &trans &kp A  &kp A  &kp A  &kp A            &trans
 &trans &trans    &trans &trans    &trans &trans &trans   &trans &trans &trans &trans &trans &trans           &trans
                         &trans    &trans &trans &trans   &trans &trans &trans &trans
             >;
