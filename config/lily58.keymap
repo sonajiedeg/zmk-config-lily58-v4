@@ -123,6 +123,18 @@
 		accent_UU_macro: accent_UU_macro {
             //label = "new_macro";
             compatible = "zmk,behavior-macro";
+			#binding-cells = <0>;
+			//wait-ms = <3>;
+			//tap-ms = <3>;
+            bindings =
+                <&macro_press &kp RALT>,
+                <&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N1 &kp KP_N8>,
+                <&macro_release &kp RALT>;
+        };
+		/*
+		accent_UU_macro: accent_UU_macro {
+            //label = "new_macro";
+            compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
 			//wait-ms = <3>;
 			//tap-ms = <3>;
@@ -131,6 +143,7 @@
                 <&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N1 &kp KP_N8>,
                 <&macro_release &kp RALT>;
 		};
+		*/
     };
     
     keymap {
