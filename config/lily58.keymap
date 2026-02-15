@@ -33,8 +33,8 @@
             global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
-        ht_accented_u: hold_tap {
-            label = "hold_tap";
+        ht_accented_u: ht_accented_u {
+            //label = "hold_tap";
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <0>;
             flavor = "tap-preferred";
