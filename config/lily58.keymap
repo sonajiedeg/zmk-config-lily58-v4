@@ -160,8 +160,8 @@
 //                     |      |      |      |        |  |       |      |       |       |
             bindings = <
 &trans &trans    &trans &trans    &trans &trans                 &trans &trans &trans &trans &trans           &trans
-&trans &trans    &trans &accent_E_morph    &trans &trans                 &trans &accent_a_morph &kp A  &kp A  &ext_power EP_ON &ext_power EP_OFF
-&trans &accent_A_morph     &trans &trans    &trans &trans                 &trans &kp A  &kp A  &kp A  &kp A            &trans
+&trans &trans    &trans &accent_E_morph    &trans &trans                 &trans &kp U &kp I  &kp O  &ext_power EP_ON &ext_power EP_OFF
+&trans &accent_A_morph     &trans &trans    &trans &trans                 &trans &kp U  &kp U  &kp O  &kp O            &trans
 &trans &trans    &trans &trans    &trans &trans &trans   &trans &trans &trans &trans &trans &trans           &trans
                         &trans    &trans &trans &trans   &trans &trans &trans &trans
             >;
