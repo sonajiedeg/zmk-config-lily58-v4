@@ -59,7 +59,7 @@
                 <&macro_press &kp RALT>,
                 <&macro_tap &kp KP_N0 &kp KP_N1 &kp KP_N9 &kp KP_N3>,
                 <&macro_release &kp RALT>;
-
+		};
     };
     
     keymap {
