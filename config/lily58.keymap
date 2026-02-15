@@ -36,7 +36,7 @@
 		accent_a_morph: accent_a_morph {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&accent_a_macro>, <&accent_A_macro>;
+            bindings = <&accent_a_macro>, <&accent_AA_macro>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
