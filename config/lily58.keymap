@@ -33,18 +33,16 @@
             //global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
-		/*
-        ht_accent_u: ht_accent_u {
+        ht_accent_U: ht_accent_U {
             //label = "hold_tap";
             compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <0>;
+            #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <220>;
             quick-tap-ms = <150>;
             //global-quick-tap;
-            bindings = <&kp RSHFT>, <&accent_U_morph>;
+            bindings = <&kp>, <&accent_U_morph>;
         };
-		*/
 		accent_A_morph: accent_A_morph {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
@@ -200,7 +198,7 @@
             bindings = <
 &trans &trans    &trans &trans    &trans &trans                 &trans &trans &trans &trans &trans           &trans
 &trans &trans    &trans &accent_E_morph    &trans &trans                 &trans &kp U &kp I  &kp O  &ext_power EP_ON &ext_power EP_OFF
-&trans &accent_A_morph     &trans &trans    &trans &trans                 &trans &ht RSHFT accent_U_morph &kp U  &kp O  &kp O            &trans
+&trans &accent_A_morph     &trans &trans    &trans &trans                 &trans &ht_accent_U RSHFT 0 &kp U  &kp O  &kp O            &trans
 &trans &trans    &trans &trans    &trans &trans &trans   &trans &trans &trans &trans &trans &trans           &trans
                         &trans    &trans &trans &trans   &trans &trans &trans &trans
             >;
