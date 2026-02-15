@@ -43,18 +43,22 @@
 
 	macros {
         accent_a_macro: accent_a_macro {
-            compatible = "zmk,behavior-macro";
             //label = "new_macro";
-            #binding-cells = <0>;
+            compatible = "zmk,behavior-macro";
+			#binding-cells = <0>;
+			wait-ms = <30>;
+			tap-ms = <30>;
             bindings =
                 <&macro_press &kp RALT>,
                 <&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N5>,
                 <&macro_release &kp RALT>;
         };
-		accent_A_macro: accent_A_macro {
-            compatible = "zmk,behavior-macro";
+		accent_AA_macro: accent_AA_macro {
             //label = "new_macro";
+            compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
+			wait-ms = <30>;
+			tap-ms = <30>;
             bindings =
                 <&macro_press &kp RALT>,
                 <&macro_tap &kp KP_N0 &kp KP_N1 &kp KP_N9 &kp KP_N3>,
