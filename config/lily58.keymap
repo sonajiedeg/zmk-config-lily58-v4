@@ -40,7 +40,7 @@
             flavor = "tap-preferred";
             tapping-term-ms = <220>;
             quick-tap-ms = <150>;
-            global-quick-tap;
+            //global-quick-tap;
             bindings = <&kp RSHFT>, <&accent_U_morph>;
         };
 		accent_A_morph: accent_A_morph {
