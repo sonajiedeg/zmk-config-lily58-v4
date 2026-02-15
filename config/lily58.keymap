@@ -55,7 +55,7 @@
             bindings = <&accent_e_macro>, <&accent_EE_macro>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-		accent_U_morph: accent_E_morph {
+		accent_U_morph: accent_U_morph {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&accent_u_macro>, <&accent_UU_macro>;
