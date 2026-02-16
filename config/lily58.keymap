@@ -15,6 +15,12 @@
 #define HRML(k1,k2,k3,k4) &ht LALT k1  &ht LGUI k2  &ht LCTRL k3  &ht LSHFT k4
 #define HRMR(k1,k2,k3,k4) &ht RSHFT k1  &ht RCTRL k2  &ht RGUI k3  &ht RALT k4
 
+/* Outside root node */
+&uc {
+    default-mode = <UC_MODE_LINUX>;
+};
+
+
 / {
     /*
     aliases {
