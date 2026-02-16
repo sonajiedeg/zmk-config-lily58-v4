@@ -17,7 +17,8 @@
 
 /* Outside root node */
 &uc {
-    default-mode = <UC_MODE_LINUX>;
+    default-mode = <UC_MODE_WIN_ALT>;
+	minimum-length = <4>;
 };
 
 
