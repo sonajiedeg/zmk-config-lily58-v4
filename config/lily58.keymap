@@ -380,7 +380,7 @@
 &trans &trans    &trans &accent_E_morph    &trans &trans                 &trans &accent_U_morph &accent_I_morph &accent_O_morph  &ext_power EP_ON &ext_power EP_OFF
 &trans &accent_A_morph     &trans &trans    &trans &trans                 &accent_dU_morph &kp RSHFT &accent_dlU_morph &accent_dO_morph  &accent_dlO_morph           &trans
 &trans &trans    &trans &trans    &trans &trans &trans   &trans &trans &trans &trans &trans &trans           &trans
-                        &trans    &trans &trans &trans   &trans &trans &trans &trans
+                        &trans    &trans &trans &trans   &trans &trans &trans &uc 0xC4 0xE4
             >;
         };
     };
