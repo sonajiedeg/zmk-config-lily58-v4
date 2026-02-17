@@ -42,7 +42,7 @@
             tapping-term-ms = <220>;
             quick-tap-ms = <150>;
             //global-quick-tap;
-            bindings = <&kp RSHFT>, <&uc 0xfc 0xdc>;
+            bindings = <&kp RSHFT &uc 0xfc 0xdc>;
         };
     };
 
