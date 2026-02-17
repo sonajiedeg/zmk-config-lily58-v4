@@ -34,7 +34,7 @@
             //global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
-        ht_ac_U: ht_accent_U {
+       ht_ac_U: ht_accent_U {
             //label = "hold_tap";
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -42,7 +42,7 @@
             tapping-term-ms = <220>;
             quick-tap-ms = <150>;
             //global-quick-tap;
-            bindings = <&kp>, <&uc 0xfc 0xdc>;
+            bindings = <&kp RSHFT>, <&uc 0xfc 0xdc>;
         };
     };
 
@@ -112,7 +112,7 @@
             bindings = <
 &trans &trans		 &trans &trans		  &trans &trans                 &trans		  &trans		   &trans			&trans        &trans          &trans
 &trans &trans		 &trans &uc 0xe9 0xc9 &trans &trans                 &trans		  &uc 0xfa 0xda    &uc 0xed 0xcd   &uc 0xf3 0xd3 &ext_power      EP_ON &ext_power EP_OFF
-&trans &uc 0xe1 0xc1 &trans &trans	      &trans &trans                 &uc 0xfc 0xdc &ht_ac_U RSHFT 0 &uc 0x171 0x170 &uc 0xf6 0xd6 &uc 0x151 0x150 &trans
+&trans &uc 0xe1 0xc1 &trans &trans	      &trans &trans                 &uc 0xfc 0xdc &ht_ac_U 0 0 &uc 0x171 0x170 &uc 0xf6 0xd6 &uc 0x151 0x150 &trans
 &trans &trans		 &trans &trans		  &trans &trans &trans   &trans &trans		  &trans		   &trans			&trans		  &trans          &trans
 							&trans		  &trans &trans &trans   &trans &trans		  &trans		   &uc 0xC4 0xE4
             >;
