@@ -49,7 +49,7 @@
 			#binding-cells = <0>;
 			bindings = <&uc 0xfc 0>, <&uc 0xdc 0>;
 			mods = <MOD_LSFT|MOD_RSFT>;
-		}
+		};
     };
 
     
