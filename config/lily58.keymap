@@ -47,7 +47,7 @@
 		mph_ac_U: morph_accented_U {
 			compatible = "zmk,behavior-mod-morph";
 			#binding-cells = <0>;
-			bindings = <&ht_ac_U RSHFT 0>, <&mph_ac_U_uc>;
+			bindings = <&ht_ac_U RSHFT 0>, <&uc 0xdc 0>;
 			mods = <(MOD_LSFT|MOD_RSFT)>;
 		};
 		mph_ac_U_lc: morph_accented_U_lowercase {
