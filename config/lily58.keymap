@@ -17,7 +17,7 @@
 
 /* Outside root node */
 &uc {
-    default-mode = <UC_MODE_WIN_ALT>;
+    default-mode = <UC_MODE_WIN_COMPOSE>;
 	minimum-length = <4>;
 };
 
