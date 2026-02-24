@@ -19,6 +19,7 @@
 &uc {
     default-mode = <UC_MODE_WIN_COMPOSE>;
 	minimum-length = <4>;
+	win-compose-key = <LALT>;
 };
 
 
