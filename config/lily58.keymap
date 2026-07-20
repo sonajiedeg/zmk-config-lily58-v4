@@ -50,7 +50,7 @@
 // |  MO 4 |  Z  |  X  |  C   |  V   |  B   | "["    |  |  "]"  |  N   |  M    |  ,S<  |  .S> |   /S? |   'S" |
 //                     | CAPS |  MO2 | MO1  |  SPACE |  | ENTER | MO3  | BSPC  |  DEL  |
             bindings = <
-&kp ESC   &kp N1 &kp N2  &kp N3   &kp N4   &kp N5                     &kp N6 &kp N7   &kp N8    &kp N9  &kp N0   &kp EQUAL
+&trans	  &kp N1 &kp N2  &kp N3   &kp N4   &kp N5                     &kp N6 &kp N7   &kp N8    &kp N9  &kp N0   &kp EQUAL
 &kp TAB   &kp Q  &kp W   &kp E    &kp R    &kp T                      &kp Y  &kp U    &kp I     &kp O   &kp P    &kp MINUS
 &kp ESC   HRML(A,S,      D,       F)       &kp G                      &kp H  HRMR(J,  K,        L,      SEMI)    &kp BSLH
 &trans    &kp Z  &kp X   &kp C    &kp V    &kp B  &kp LBKT   &kp RBKT &kp N  &kp M    &kp COMMA &kp DOT &kp FSLH &kp SQT
@@ -101,11 +101,11 @@
 // |       |     |     |      |      |      |        |  |       |      |       |       |      |       |       |
 //                     |      |      |      |        |  |       |      |       |       |
             bindings = <
-&trans &trans		 &trans &trans		  &trans &trans                 &trans		  &trans		&trans			&trans        &trans          &trans
-&trans &trans		 &trans &uc 0xe9 0xc9 &trans &trans                 &trans		  &uc 0xfa 0xda &uc 0xed 0xcd   &uc 0xf3 0xd3 &ext_power      EP_ON &ext_power EP_OFF
-&trans &uc 0xe1 0xc1 &trans &trans	      &trans &trans                 &trans		  &trans     &uc 0x171 0x170 &uc 0xf6 0xd6 &uc 0x151 0x150 &trans
-&trans &trans		 &trans &trans		  &trans &trans &trans   &trans &trans		  &trans		&trans			&trans		  &trans          &trans
-							&trans		  &trans &trans &trans   &trans &trans		  &trans		&trans
+&trans &trans		 &trans        &trans		  &trans &trans                 &trans		  &trans		&trans			&trans        &trans          &trans
+&trans &trans		 &trans        &uc 0xe9 0xc9  &trans &trans                 &trans		  &uc 0xfa 0xda &uc 0xed 0xcd   &uc 0xf3 0xd3 &ext_power      EP_ON &ext_power EP_OFF
+&trans &uc 0xe1 0xc1 &uc 0xe4 0xc4 &trans         &trans &trans                 &trans		  &trans     &uc 0x171 0x170 &uc 0xf6 0xd6 &uc 0x151 0x150 &trans
+&trans &trans		 &trans        &trans		  &trans &uc 0xdf 0x1e9e &trans   &trans &trans		  &trans		&trans			&trans		  &trans          &trans
+							       &trans		  &trans &trans &trans   &trans &trans		  &trans		&trans
             >;
         };
     };
